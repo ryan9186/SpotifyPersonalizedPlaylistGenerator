@@ -5,7 +5,7 @@ from flask import Flask, redirect, request, jsonify, session
 
 # Initialize the Flask app
 app = Flask(__name__)
-app.secret_key = '53d355f8-571a-4590-1310-1f9579449851'
+app.secret_key = load_.dotenv()
 
 CLIENT_ID = '' 
 CLIENT_SECRET = ''
