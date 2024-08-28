@@ -7,7 +7,6 @@ from flask import Flask, redirect, request, jsonify, session
 app = Flask(__name__)
 app.secret_key = '53d355f8-571a-4590-1310-1f9579449851'
 
-#Client ID and client secret can be found in developer.spotify dashboard 
 CLIENT_ID = '' 
 CLIENT_SECRET = ''
 REDIRECT_URI = 'http://localhost:5000/callback'
